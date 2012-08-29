@@ -223,4 +223,32 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
   //  $variables['theme_hook_suggestions'] = array_diff($variables['theme_hook_suggestions'], array('block__no_wrapper'));
   //}
 }
+
 // */
+/*
+function v_theme_links__menu_modern_tchnic($variables) 
+{
+   $output = '';
+   foreach ($variables['links'] as $link) 
+   {
+      $output .=  l('<div>'.$link['title'].'</div>', $link['href'],array('html' => True));
+   }
+   return $output;
+}*/
+
+/** 
+*rebuild medern technic menu
+*/
+function v_menu_link__menu_mmenu($variables) {
+  $element = $variables['element'];
+    $output = l(''.$element['#title'].'', $element['#href'], $options = array('html' => TRUE));
+    return '<li class="row_item" ' . drupal_attributes($element['#attributes']) . '><span class="arrow"></span>' . $output . "</li>\n";
+}
+//
+//rebuild rare technic 
+function v_menu_link__menu_raremenu($variables) {
+  $element = $variables['element'];
+    $output = l(''.$element['#title'].'', $element['#href'], $options = array('html' => TRUE));
+    return '<li class="row_item" ' . drupal_attributes($element['#attributes']) . '><span class="arrow"></span>' . $output . "</li>\n";
+}
+
