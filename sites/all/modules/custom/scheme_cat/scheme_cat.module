@@ -1,0 +1,13 @@
+<?php
+
+
+function scheme_cat_get_tags(){
+	
+  $node = menu_get_object();
+  //dpm($node);
+  $result = array();
+  foreach ($node->field_category[$node->language] as $key => $value) {
+    $result[] = $value['tid'];
+  }
+  return implode('+', $result);
+}

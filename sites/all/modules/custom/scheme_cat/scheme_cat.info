@@ -1,0 +1,5 @@
+name = Scheme Categories
+description = "Provides array of taxonomy ids for contextual filter"
+package = Custom
+core = 7.x
+files[] = scheme_cat.module
