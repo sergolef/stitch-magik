@@ -701,5 +701,185 @@ input#edit-search-block-form--2:focus {
    // margin: 10px 15px 0 20px;
 }
 
+.node-shema.view-mode-full{
+    width: 800px;
+    height: 350px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+}
+
+.more{
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    top: 25px;
+    display: inline-block;
+}
+
+.files{
+    float: left;
+    height: 40px;
+    width: 310px;
+    display: inline-block; 
+}
+
+.line{
+    height: 2px;
+    width: 300px;
+    background: white;
+    background: -webkit-linear-gradient(left,  white, gray, white);
+    background: -moz-linear-gradient(left,  white, gray, white);
+    background: -o-linear-gradient(left,  white, gray, white);
+    background: -ms-linear-gradient(left,  white, gray, white);
+    background: linear-gradient(left, white, gray, white);
+    margin: 5px;
+    display:inline-block;
+}
+
+
+.file_tipe{
+    width: 90px;
+    height: 20px;
+    box-shadow: 0 0 2px gray;
+    margin: 10px 0 0 10px;
+}
+
+.roller,  .view-id-newest_schemes{
+    height: 190px;
+    width: 800px;
+    background: #F7F5F5;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icons_in_roller{
+    border-radius: 5px;
+    width: -moz-content-max;
+    height: 131px;
+    box-shadow: 1px 1px 2px gray;
+    background: white;
+    padding: 8px;
+    float:left;
+    margin: 10px 0 0 10px;
+    border: 1px solid rgba(170,170,170, 0.6);
+}
+
+.left_row{
+    margin: 8px; 
+    height:30px; 
+    weight:auto;
+    position: absolute;
+    top: 55px;
+    left: -40px;
+}
+
+.right_row{
+    margin: 8px; 
+    height:30px; 
+    weight:auto;
+    position: absolute;
+    top: 55px;
+    left: 696px;
+}
+
+.file_tipe2{
+    width: 55px;
+    height: 20px;
+    box-shadow: 0 0 2px gray;
+    margin: 10px 0 0 10px;
+}
+
+.like_block{
+    width: 230px;
+    height: 190px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    position: absolute;
+    top: 15px;
+    left: 745px;
+    padding: 5px;
+}
+
+.ne_rabotaet {
+    background: #40E117;
+    background: -webkit-linear-gradient(top, #FFF499,  #FFA799);
+    background: -moz-linear-gradient(top,  #FFF499,  #FFA799);
+    background: -o-linear-gradient(top,  #FFF499,  #FFA799);
+    background: -ms-linear-gradient(top,  #FFF499,  #FFA799);
+    background: linear-gradient(top,  #FFF499,  #FFA799);
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    -webkit-box-shadow: 0 0 1px 3px rgba(163,125,165,.1);
+    box-shadow: 0 0 1px 3px rgba(163,125,165,.1);
+    border: 1px solid #A37DA5;
+    text-decoration: none;
+    color: #782A41;
+    position: absolute;
+    margin: 0 auto 10px;
+    top: 153px;
+    left: 212px;
+}
+
+ 
+.ne_rabotaet:hover {
+    -webkit-box-shadow: 0 0 1px 3px rgba(0,0,0,.1), inset 0 0 6px 1px #A37DA5;
+    box-shadow: 0 0 1px 3px rgba(0,0,0,.1), inset 0 0 4px 3px #FFF27A;
+    color: #BB4A38;
+}
+
+.ne_rabotaet:active {
+    -webkit-box-shadow: inset 0 0 3px 1px rgba(255,255,255,.1);
+    box-shadow: inset 0 0 3px 1px rgba(255,255,255,.1);
+
+    background: -webkit-linear-gradient(top, #FFA799, #FFF499);
+    background: -moz-linear-gradient(top, #FFA799, #FFF499);
+    background: -o-linear-gradient(top, #FFA799, #FFF499);
+    background: -ms-linear-gradient(top, #FFA799, #FFF499);
+    background: linear-gradient(top, #FFA799, #FFF499);
+    color: black;
+}
+
+
+.social{
+    width: auto;
+    height: 20px;
+}
+
+.icon_podrobnee{
+    border-radius: 5px;
+    max-height: 165px;
+    max-width: 170px;
+    width: auto;
+    height: auto;
+    box-shadow: 1px 1px 2px gray;
+    background: white;
+    padding: 8px;
+    margin: 6px 11px 6px 0;
+    text-align: center;
+}
+.pager{
+	margin-top:5px !important;
+	padding-top:15px !important;
+	font-size:14px;
+}
+#block-views-newest-schemes-block h2, #block-views-scheme-cat-block h2{
+	color: #A37DA5;
+	font-size:18px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
