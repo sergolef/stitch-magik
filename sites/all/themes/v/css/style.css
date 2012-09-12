@@ -745,8 +745,8 @@ input#edit-search-block-form--2:focus {
     margin: 10px 0 0 10px;
 }
 
-.roller,  .view-id-newest_schemes{
-    height: 190px;
+.roller, #block-views-scheme-cat-block, #block-views-newest-schemes-block{
+    height: auto;
     width: 800px;
     background: #F7F5F5;
     box-shadow: 0 0 2px gray;
