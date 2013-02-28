@@ -50,13 +50,13 @@ stylesheets[all][] = system.menus.css
 ; Then we add our own stylesheets.
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/reset.css
-//google font
-stylesheets[all][] = http://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic-ext
+
+
 //stylesheets[all][] = css/normalize.css
 //stylesheets[all][] = css/wireframes.css
 //stylesheets[all][] = css/layouts/fixed.css
 //stylesheets[all][] = css/page-backgrounds.css
-//stylesheets[all][] = css/tabs.css
+stylesheets[all][] = css/tabs.css
 //stylesheets[all][] = css/pages.css
 //stylesheets[all][] = css/blocks.css
 //stylesheets[all][] = css/navigation.css
