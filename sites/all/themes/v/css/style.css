@@ -301,7 +301,7 @@ body{
     font-size: 14px;
 
 }
-.scheme, .view-id-shema .views-row{
+.scheme, .view-id-shema .views-row, .view-id-taxonomy_term .views-row{
     margin-top: 17px;
     margin-left: 17px;
     border-radius: 5px;
@@ -329,7 +329,7 @@ body{
     float: left;
     margin-left: 10px;
     width: 80px;
-    font-size: 12px;
+    font-size: 12px;    
 }
 .see_more, .views-field-view-node {
     background: #40E117;
@@ -354,6 +354,7 @@ body{
     text-decoration: none;
     color: #782A41;
     font-size: 12px;
+    line-height: 1.3em;
 }
 
 
@@ -876,6 +877,13 @@ input::-webkit-search-cancel-button {
     width: 145px;
     border: 1px solid grey;
     
+}
+.format{
+    position: relative;
+    top: -20px;
+    left:20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 

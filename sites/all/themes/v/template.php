@@ -366,3 +366,10 @@ function V_form_alter(&$form, &$form_state, $form_id) {
     $form['search_block_form']['#attributes']['placeholder'] = t(' искать...');
   }
 } 
+function v_preprocess_page(&$vars) {
+    //kpr($vars);
+ /* if(arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+    $term = taxonomy_get_term(arg(2));
+    $vars['template_files'][] =  'page-vocabulary-'. $term->vid;
+  }*/
+}
